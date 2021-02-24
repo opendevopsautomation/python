@@ -16,7 +16,7 @@ class Solution:
             else:
                 innerscore=0
                 while result[-1] != '(' and result: 
-                    innerscore+=int(result.pop())
+                    innerscore+=result.pop()
 
                 result.pop()
                 if  innerscore == 0:  
