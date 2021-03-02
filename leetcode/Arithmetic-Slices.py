@@ -4,7 +4,6 @@ class Solution:
         count=0
         result=0
         for i in range(2,len(A)):
-            print(i)
             if (A[i]-A[i-1])==(A[i-1]-A[i-2]):
                 count+=1
             else:
