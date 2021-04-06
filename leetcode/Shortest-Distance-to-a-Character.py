@@ -67,5 +67,3 @@ class Solution:
             res.append(temp)
             
         return res
-                
-        
