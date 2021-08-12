@@ -29,3 +29,4 @@ class Solution:
 
             result+=min(left[i],right[i])-height[i]
         return result
+
