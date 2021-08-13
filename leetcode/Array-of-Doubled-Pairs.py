@@ -13,7 +13,7 @@ class Solution:
             if tmp_dct[j] == 0:
                 continue
             tmp=j//2 if j < 0 else j*2
-        #Return False in case element of the array is -ve, even not divisble by 0 or computed value at 15 not in dictionary's key 
+        #Return False in case element of the array is -ve, even not divisble by 0 or computed value at line number 15 not in dictionary's key 
             if (j < 0 and j %2 != 0) or tmp not in tmp_dct:   
                 return False
             if tmp_dct[j] > tmp_dct[tmp]:
