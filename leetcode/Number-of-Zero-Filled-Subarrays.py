@@ -1,4 +1,6 @@
-    class Solution:
+#TC: O(n)
+#TC: 1
+class Solution:
     def zeroFilledSubarray(self, nums: List[int]) -> int:
         zero=result=0
         for num in nums:
@@ -7,5 +9,4 @@
                 result+=zero
             else:
                 zero=0
-        return result
-            
+        return result            
