@@ -1,5 +1,7 @@
 #TC: O(m*n) - m: number of rows, n: number of columns
 #SC: O(1)
+
+#Ref: https://www.youtube.com/watch?v=DWQBQvMQKcg&ab_channel=Techdose
 class Solution:
     def minimumArea(self, grid: List[List[int]]) -> int:
         m = len(grid)
